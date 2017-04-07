@@ -1,0 +1,230 @@
+! Scrollbar
+URxvt.scrollBar: false
+
+!! Fonts
+! Knack
+!*font: xft:Knack Nerd Font:style=Regular:size=8
+!*boldFont: xft:Knack Nerd Font:style=Bold:size=8
+!*italicFont: xft:Knack Nerd Font:style=Italic:size=8
+!*boldItalicFont: xft:Knack Nerd Font:style=Bold Italic:size=8
+
+! Hack
+!*font: xft:Hack:style=Regular:size=8
+!*boldFont: xft:Hack:style=Bold:size=8
+!*italicFont: xft:Hack:style=Italic:size=8
+!*boldItalicFont: xft:Hack:style=Bold Italic:size=8
+
+! tewi
+!*font:           xft: tewi:size=11:pixelsize=11
+!*boldFont:       xft: tewi:normal:size=11
+!*italicFont:     xft: tewi:italic:autohint=true:size=11
+!*boldItalicFont: xft: tewi:bolditalic:italic:autohint:true:size=11
+
+! GoHu
+!*font:            xft: GohuFont:style=Regular:size=11:pixelsize=14
+!*boldFont:        xft: GohuFont:style=Bold:size=11:pixelsize=14
+
+! bitocra
+!*font:            xft: bitocra13full:style=Regular:pixelsize=13
+!*boldFont:        xft: bitocra13full:style=Bold:pixelsize=13
+
+! kakwa
+!*font:             xft: kakwafont:style=Regular:pixelsize=12
+!*boldFont:         xft: kakwaFont:style=Regular:pixelsize=12
+
+! Terminess
+!*font:              xft: TerminessTTF Nerd Font:style=Medium:size=10
+!*boldFont:          xft: TerminessTTF Nerd Font:style=Bold:size=10
+!*italicFont:        xft: TerminessTTF Nerd Font:style=Italic:size=10
+!*boldItalicFont:    xft: TerminessTTF Nerd Font:style=Bold Italic:size=10
+
+! dina
+!*font:            xft: Dina:style=Regular
+!*boldFont:        xft: Dina:style=Bold
+!*italicFont:      xft: Dina:style=Italic
+!*boldItalicFont:  xft: Dina:style=Bold Italic
+
+! Tamzen
+*font:            xft: TamzenForPowerline:style=Regular:pixelsize=14
+*boldFont:        xft: TamzenForPowerline:style=Bold:pixelsize=14
+
+! mplus
+!*font:            mplus_f12r
+!*boldFont:        mplus_f12b
+
+!! Colors
+
+! Solarized color scheme for the X Window System
+!
+! http://ethanschoonover.com/solarized
+
+! Custom
+
+#define S_nrw_bg        #33303b
+#define S_nrw_bg_fade   #2d2a35
+
+! Common
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+
+! Dark
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+
+! Light
+
+! #define S_base03        #fdf6e3
+! #define S_base02        #eee8d5
+! #define S_base01        #93a1a1
+! #define S_base00        #839496
+! #define S_base0         #657b83
+! #define S_base1         #586e75
+! #define S_base2         #073642
+! #define S_base3         #002b36
+
+!! Erebus colors
+
+#define E_color0   #d5d5d5
+#define E_color1   #ff5f5f
+#define E_color2   #de8a36
+#define E_color3   #d78787
+#define E_color4   #af5fd7
+#define E_color5   #ff87d7
+#define E_color6   #447865
+#define E_color7   #b8b8b8
+#define E_color8   #b8b8b8
+#define E_color9   #d78787
+#define E_color10  #ff9f6f
+#define E_color11  #ff5f5f
+#define E_color12  #dea3e5
+#define E_color13  #d7afaf
+#define E_color14  #af5fd7
+#define E_color15  #d5d5d5
+
+!! Sysnthwave colors
+
+#define bg    #1E0F16
+#define blk   #33303b
+#define fg    #c0a79a
+#define bblk  #4f4b58
+#define red   #87404f
+#define grn   #4c9882
+#define ylw   #71949a
+#define blu   #615772
+#define mag   #783e57
+#define cyn   #554757
+#define wht   #c0a79a
+
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+!
+! URxvt*background:            S_base03
+
+*fading:                  40
+*fadeColor:               S_nrw_bg_fade
+*pointerColorBackground:  S_base01
+*pointerColorForeground:  S_base1
+
+
+! special
+*.foreground:   #c7ccd1
+*.background:   #1c2023
+*.cursorColor:  #c7ccd1
+
+! black
+*.color0:       #1c2023
+*.color8:       #747c84
+
+! red
+*.color1:       #c7ae95
+*.color9:       #c7ae95
+
+! green
+*.color2:       #95c7ae
+*.color10:      #95c7ae
+
+! yellow
+*.color3:       #aec795
+*.color11:      #aec795
+
+! blue
+*.color4:       #ae95c7
+*.color12:      #ae95c7
+
+! magenta
+*.color5:       #c795ae
+*.color13:      #c795ae
+
+! cyan
+*.color6:       #95aec7
+*.color14:      #95aec7
+
+! white
+*.color7:       #c7ccd1
+*.color15:      #f3f4f5
+
+!*color0:                   E_color0
+!*color1:                   E_color1
+!*color2:                   E_color2
+!*color3:                   E_color3
+!*color4:                   E_color4
+!*color5:                   E_color5
+!*color6:                   E_color6
+!*color7:                   E_color7
+!*color8:                   E_color8
+!*color9:                   E_color9
+!*color10:                  E_color10
+!*color11:                  E_color11
+!*color12:                  E_color12
+!*color13:                  E_color13
+!*color14:                  E_color14
+!*color15:                  E_color15
+
+!*color0:                  S_base02
+!*color1:                  S_red
+!*color2:                  S_green
+!*color3:                  S_yellow
+!*color4:                  S_blue
+!*color5:                  S_magenta
+!*color6:                  S_cyan
+!*color7:                  S_base2
+!*color9:                  S_orange
+!*color8:                  S_base03
+!*color10:                 S_base01
+!*color11:                 S_base00
+!*color12:                 S_base0
+!*color13:                 S_violet
+!*color14:                 S_base1
+!*color15: S_base3
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #002b37, #002b37, #003642
+rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
+rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
+rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
+
+!---------------
+!Emacs
+!---------------
+
+Emacs.FontBackend: xft
+Emacs.font: Tamzen 14
